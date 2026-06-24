@@ -1,0 +1,16 @@
+[project]
+name = "lca-reliable-agents"
+version = "0.1.0"
+description = "LangChain Academy: Building Reliable Agents"
+readme = "README.md"
+requires-python = ">=3.12, <=3.13"
+dependencies = [
+    "anthropic",
+    "langsmith>=0.7.31",
+    "langsmith-fetch>=0.3.1",
+    "python-dotenv>=1.2.2",
+    "numpy>=1.24.0",
+    "openai>=2.14.0",
+    "google-genai",
+    "google-cloud-aiplatform"
+]
